@@ -15,7 +15,7 @@ class anotherClass(myClass): #anotherClass wird inheritiert von myClass
         myClass.method1(self);
         print("anotherClass method1")
 
-    #Test
+    #Test #Noch ein Test 
 
 def main():
 
