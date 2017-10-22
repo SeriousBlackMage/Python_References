@@ -15,6 +15,8 @@ class anotherClass(myClass): #anotherClass wird inheritiert von myClass
         myClass.method1(self);
         print("anotherClass method1")
 
+    #Test
+
 def main():
 
     c = myClass() #Klasse wird als Object instanziert
