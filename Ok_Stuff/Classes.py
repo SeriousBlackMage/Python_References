@@ -15,7 +15,7 @@ class anotherClass(myClass): #anotherClass wird inheritiert von myClass
         myClass.method1(self);
         print("anotherClass method1")
 
-    #Test #Noch ein Test 
+
 
 def main():
 
@@ -24,6 +24,7 @@ def main():
     c.method2("This is a String") #Man muss kein Parameter für self übergeben. Das macht Python schon selber
     c2 = anotherClass()
     c2.method1()
+    c2.method2()
 
 if __name__ == "__main__":
     main()
